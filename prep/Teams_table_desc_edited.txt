@@ -1,0 +1,60 @@
+features_dict
+
+FP :  Fielding percentage
+W :  Wins
+BB :  Walks by batters
+BPF :  Three-year park factor for batters
+HR :  Homeruns by batters
+ERA :  Earned run average
+3B :  Triples
+HA :  Hits allowed
+HBP :  Batters hit by pitch
+DP :  Double Plays
+SOA :  Strikeouts by pitchers
+attendance :  Home attendance total
+PPF :  Three-year park factor for pitchers
+IPOuts :  Outs Pitched (innings pitched x 3)
+RA :  Opponents runs scored
+SHO :  Shutouts
+AB :  At bats
+E :  Errors
+G :  Games played
+H :  Hits by batters
+CG :  Complete games
+L :  Losses
+BBA :  Walks allowed
+HRA :  Homeruns allowed
+ER :  Earned runs allowed
+SV :  Saves
+SO :  Strikeouts by batters
+SB :  Stolen bases
+SF :  Sacrifice flies
+Ghome :  Number of Games played at home
+2B :  Doubles
+CS :  Caught stealing
+R :  Runs scored
+
+***label
+Rank :  Position in final standings
+label: Ranked Top3 : True otherwise False
+
+*** feature_win
+DivWin :  Division Winner (Y or N)
+WSWin :  World Series Winner (Y or N)
+LgWin :  League Champion(Y or N)
+WCWin :  Wild Card Winner (Y or N)
+
+
+*** time
+yearID :  Year
+
+*** ids
+teamID :  Team
+teamIDBR :  Team ID used by Baseball Reference website
+teamIDretro :  Team ID used by Retrosheet
+teamIDlahman45 :  Team ID used in Lahman database version 4.5
+lgID :  League
+franchID :  Franchise (links to TeamsFranchise table)
+divID :  Team's division
+name :  Team's full name
+park :  Name of team's home ballpark
